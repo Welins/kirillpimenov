@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "year": "2024",
+      "name": "Personal Website",
+      "stack": ["Next.js", "TypeScript", "Tailwind CSS"],
+      "link": "https://kpimenov.ru",
+      "link_text": "kpimenov.ru"
+    },
+    {
+      "year": "2024",
+      "name": "WELINS — Digital e-commerce website",
+      "stack": ["Next.js", "TypeScript", "Prisma", "YooKassa", "Tailwind CSS"],
+      "link": "https://welins.ru/",
+      "link_text": "welins.ru"
+    },
+    {
+      "year": "2024",
+      "name": "Platform that connects farmers with stores and customers",
+      "stack": ["Next.js", "TypeScript"]
+    },
+    {
+      "year": "2024",
+      "name": "Language learning platform using Ai",
+      "stack": ["Next.js", "TypeScript", "OpenAi"]
+    },
+    {
+      "year": "2023",
+      "name": "Local bakery website",
+      "stack": ["NextJS", "TypeScript", "Tailwind CSS"],
+      "link": "https://покорткерос2.рф",
+      "link_text": "покорткерос2.рф"
+    },
+    {
+      "year": "2023",
+      "name": "Local cleaning organization website",
+      "stack": ["React"],
+      "link": "https://lysva.vercel.app/",
+      "link_text": "lysva.app"
+    },
+    {
+      "year": "2021",
+      "name": "Fountain - My First Ever Created Website",
+      "stack": ["HTML", "SASS", "BEM"],
+      "link": "https://welins.github.io/chocolate-fountain/",
+      "link_text": "welins.github.io/chocolate-fountain"
+    }
+  ]
+}

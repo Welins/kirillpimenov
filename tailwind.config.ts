@@ -12,6 +12,10 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        "grid-pattern": "url('/grid.png')",
+        "purple-image": "url(/purple.jpg)",
+      },
     },
   },
   plugins: [],

@@ -1,0 +1,53 @@
+.gallery {
+  height: 175vh;
+  overflow: hidden;
+}
+
+.gallery .galleryWrapper {
+  position: relative;
+  top: -12.5vh;
+  height: 200vh;
+  display: flex;
+  gap: 2vw;
+  padding: 5vw;
+}
+
+.gallery .galleryWrapper .column {
+  position: relative;
+  height: 100%;
+  width: 25%;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  white-space: nowrap;
+}
+
+.gallery .galleryWrapper .column .imageContainer {
+  position: absolute;
+  height: 33%;
+  width: 100%;
+  position: relative; /* This is redundant and can be removed */
+  border-radius: 1vw;
+  overflow: hidden;
+}
+
+.gallery .galleryWrapper .column .imageContainer img {
+  object-fit: cover;
+}
+
+.gallery .galleryWrapper .column:nth-of-type(1) {
+  top: -30%;
+}
+
+.gallery .galleryWrapper .column:nth-of-type(2) {
+  top: -70%;
+}
+
+.gallery .galleryWrapper .column:nth-of-type(3) {
+  top: -30%;
+}
+
+.gallery .galleryWrapper .column:nth-of-type(4) {
+  top: -60%;
+}

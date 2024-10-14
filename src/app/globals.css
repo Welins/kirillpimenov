@@ -2,26 +2,68 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  scroll-behavior: auto;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #101010;
+  --foreground: #ededed;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ededed;
+    --foreground: #101010;
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+.dimmer {
+  position: fixed; /* Закрепляем элемент */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8); /* Полупрозрачный черный фон */
+  opacity: 0; /* Начальная прозрачность */
+  transition: opacity 0.3s ease; /* Плавный переход */
+  z-index: 9999; /* Высокий индекс, чтобы элемент был сверху */
+  pointer-events: none; /* Игнорируем события мыши */
+}
+
+.visible {
+  opacity: 1; /* Полная видимость при активации затемнения */
+}
+
+/* Стилизация всего скроллбара */
+::-webkit-scrollbar {
+  width: 6px; /* Устанавливаем ширину скроллбара */
+}
+
+/* Цвет фона скроллбара */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Стилизация ползунка скроллбара */
+::-webkit-scrollbar-thumb {
+  background-color: #7e57c2; /* Фиолетовый цвет ползунка */
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+@layer components {
+  .default-border {
+    @apply border-[2px] border-neutral-800;
   }
 }

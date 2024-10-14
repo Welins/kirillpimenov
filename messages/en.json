@@ -1,0 +1,35 @@
+{
+  "name": "Kirill Pimenov",
+  "position": "Front-End Developer",
+  "resume": "Resume",
+  "resumeLink": "/Kirill_Pimenov_CV_en.pdf",
+  "rights": "Kirill Pimenov. All Rights Reserved.",
+  "information": "I've always enjoyed building websites. From design to development under the hood.",
+  "navigation": {
+    "info": "About",
+    "work": "Projects",
+    "contacts": "Contacts"
+  },
+  "info": {
+    "about_1": "My passion for web development started when I was still in high school. I created simple websites for local companies and worked on small projects for myself.",
+    "about_2": "Since then, I have gained experience in developing projects of varying complexity - from landings to e-commerce platforms.",
+    "about_3": "Technologies and tools I've been working with lately: React, Next.js, Tailwind CSS."
+  },
+  "projects": {
+    "year": "Year",
+    "project": "Project",
+    "stack": "Technologies",
+    "link": "Link"
+  },
+  "contacts": {
+    "heading": "Get in touch",
+    "firstPart": "Currently",
+    "highlightedPart": "i am on the lookout for new opportunities and am open to offers!",
+    "secondPart": "If you have ideas, projects or just want to talk, send an email. I promise to reply as quickly as I can.",
+    "buttonText": "Resume",
+    "shufflePhone": "Phone:",
+    "shuffleEmail": "Email:",
+    "shuffleLocation1": "Currently Located In",
+    "shuffleLocation2": "Russia, Syktyvkar"
+  }
+}
