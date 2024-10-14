@@ -124,6 +124,7 @@ export async function generateMetadata({ params: { locale } }: Params) {
 
   return {
     title: `${t("name")} — ${t("position")}`,
-    description: `${t("name")} — ${t("position")} personal website`,
+    description: `${t("name")} — ${t("position")} ${t("description")}`,
+    keywords: `${t("keywords")}`,
   };
 }

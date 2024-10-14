@@ -14,6 +14,7 @@ export default function LinksContainer() {
               href="https://github.com/welins"
               target="_blank"
               className="p-2 block"
+              aria-label="GitHub Profile"
             >
               <PiGithubLogoBold className="w-6 h-6 group-hover:fill-purple-900 transition-all" />
             </Link>
@@ -26,6 +27,7 @@ export default function LinksContainer() {
               href="https://linkedin.com/in/welins"
               target="_blank"
               className="p-2 block"
+              aria-label="LinkedIn Profile"
             >
               <FaLinkedinIn className="w-6 h-6 group-hover:fill-purple-900 transition-all" />
             </Link>
@@ -38,6 +40,7 @@ export default function LinksContainer() {
               href="https://t.me/welins"
               target="_blank"
               className="p-2 block"
+              aria-label="Telegram Profile"
             >
               <FaTelegramPlane className="w-6 h-6 group-hover:fill-purple-900 transition-all" />
             </Link>
@@ -50,6 +53,7 @@ export default function LinksContainer() {
               href="https://vk.com/welins"
               target="_blank"
               className="p-2 block"
+              aria-label="VK Profile"
             >
               <FaVk className="w-6 h-6 group-hover:fill-purple-900 transition-all" />
             </Link>

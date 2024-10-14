@@ -27,9 +27,9 @@ export default function Contacts({ locales }: ContactsProps) {
         <span className="inline-block text-purple-400 uppercase tracking-widest text-sm font-bold my-2">
           {locales.contacts}
         </span>
-        <h3 className="font-bold text-3xl sm:text-5xl uppercase mb-5">
+        <h2 className="font-bold text-3xl sm:text-5xl uppercase mb-5">
           {locales.heading}
-        </h3>
+        </h2>
         <p className="mb-5 font-medium text-lg">
           {locales.firstPart}{" "}
           <span className="text-purple-400">{locales.highlightedPart}</span>{" "}

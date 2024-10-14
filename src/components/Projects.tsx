@@ -18,9 +18,9 @@ export default function Projects({ locales }: ProjectsProps) {
       className="py-6 sm:py-12 md:py-20 bg-purple-500/5 drop-shadow-2xl border-[2px] border-purple-500/10 rounded-md px-6"
       id="projects"
     >
-      <h3 className="font-bold text-3xl sm:text-5xl uppercase">
+      <h2 className="font-bold text-3xl sm:text-5xl uppercase">
         {locales.projects}
-      </h3>
+      </h2>
       <table className="w-full mt-4 sm:mt-12">
         <thead>
           <tr className="text-sm font-bold uppercase">
