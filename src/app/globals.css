@@ -11,13 +11,6 @@
   --foreground: #ededed;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #ededed;
-    --foreground: #101010;
-  }
-}
-
 body {
   color: var(--foreground);
   background: var(--background);
